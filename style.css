@@ -1,0 +1,97 @@
+body{
+    background-image: url(img/hatter.png);
+    background-size: 250px 200px;
+    background-repeat: repeat;
+}
+.konténer{
+     width: 1000px;
+     background-color: pink;
+     margin:0 auto;
+     border: black dotted 3px;
+}
+.konténer2{
+     width: 1000px;
+     background-color: pink;
+     margin:20px auto;
+     border: black dotted 3px;
+}
+li{
+    list-style-image: url(img/paw.png);
+}
+.kiskonténer{
+    background-color: grey;
+    width: 48%;
+}
+.kont1{
+    float: right;
+    margin-right: 8px;
+}
+.kont2{
+    margin-left: 8px;
+}
+.kiskép{
+    width: 75px;
+    height: 75px;
+    margin-left: 10px;
+    float: left;
+    border-style: inset;
+    margin-right: 5px;
+}
+.cimsor{
+    background-color: pink;
+    width: 70%;
+    margin-left: 10px;
+    border-style: outset;
+}
+.szöveg{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.képgaléria{
+    width: 150px;
+    height: 150px;
+}
+.table{
+    margin: 0 auto;
+    width: 80%;
+}
+.főcím{
+    border-bottom: red solid 2px;
+    width:98%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.linkek{
+    color: white;
+}
+.főszöveg{
+    margin-left: 10px;
+}
+.galeria{
+    margin-left: 20px;
+    border-bottom: black solid 2px;
+    margin-right: 850px;
+}
+.tábla{
+    margin: 0 auto;
+    width:80%;
+}
+.container {
+    position: relative;
+    display: none;
+}
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+  }
+  #imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+  }
